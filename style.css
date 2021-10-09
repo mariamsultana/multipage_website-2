@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(182, 182, 165);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+
+header {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #567763e3;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.logo {
+  display: inline-block;
+}
+.logo img {
+  vertical-align: middle;
+  width: 97px;
+  padding: 5px 0px;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  font-size: 23px;
+  padding: 24px 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #ddd;
+  background-color: #465a4ee3;
+  padding: 28px 6px;
+}
+.navbar li a.active {
+  background-color: #465a4ee3;
+  padding: 28px 6px;
+}
+#welcome {
+  background-image: url(assets/blur.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 2em;
+}
+#welcome h1 {
+  text-align: center;
+  padding-top: 2em;
+  font-size: 3em;
+  color: white;
+  font-family: cursova;
+}
+.ancient h2 {
+  font-size: 25px;
+  padding: 1em;
+}
+.ancient p {
+  padding: 1em;
+}
+
+/*----------------About Page Start  ------------------*/
+
+.family_member {
+  display: flex;
+  background-image: url(assets/blur.jpg);
+  background-size: cover;
+}
+
+.family_member > div {
+  background-color: rgb(168, 182, 196);
+  margin: 41px;
+  padding: 50px;
+  width: 33.3%;
+  font-size: 1em;
+}
+
+.family_member > div h3 {
+  text-align: center;
+  padding-bottom: 1em;
+  font-size: 23px;
+}
+#member h1 {
+  text-align: center;
+  padding: 2em;
+  font-size: 3em;
+  color: #000;
+  font-family: cursova;
+}
+
+/*------------------- Royal Assets -----------------*/
+#inventory h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 1em;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 5em;
+}
+th {
+  font-size: 20px;
+}
+table,
+td,
+td {
+  border: 2px solid black;
+  padding: 1em;
+  text-align: center;
+}
+.white {
+  background-color: #fff;
+}
+
+/*-----------------  Contact Us   -----------------*/
+
+#contact_body {
+  background-image: url(assets/blur.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-top: 2em;
+}
+#contact_body h1 {
+  text-align: center;
+  padding: 2em;
+  font-size: 3em;
+  color: #000;
+  font-family: cursova;
+}
+
+#contactform {
+  width: 43%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px black;
+  background-color: rgb(168, 182, 196);
+  padding: 3em;
+  margin-bottom: 3em;
+}
+
+input {
+  width: 60%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#message {
+  width: 292px;
+  height: 101px;
+}
+.submit {
+  background-color: #465a4ee3;
+  color: #fff;
+}
+.submit:hover {
+  background-color: #465aaa44;
+}
